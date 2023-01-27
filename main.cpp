@@ -1,12 +1,5 @@
-#include <iostream>
+#include "c-echo.h"
 
-using namespace std;
-
-int main()
-{
-  string name;
-  cout<<"What is your name?"<<endl;
-  cin>>name;
-  cout <<"Hello "<<name<<"!"<<endl;
-  return 0;
+int main(int argv, char** argc) {
+    std::cout << "Count of output: " << count(echo(argv,argc)) << std::endl;
 }
