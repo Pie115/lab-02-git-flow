@@ -1,7 +1,8 @@
 c-echo-count
+c-echo
 test
-
 CMakeCache.txt
 CMakeFiles/
 cmake_install.cmake
 Makefile
+lib/
